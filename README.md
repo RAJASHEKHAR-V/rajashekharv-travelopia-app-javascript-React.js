@@ -1,4 +1,4 @@
-### Travlopia App
+### Travelopia App
 
 - The Application is implemented using Javascript and React.js.
 - Used react-icons for icons, bootstrap for responsiveness wherever necessary, media-queries for responsiveness, React useState hook for maintaining the details in state, react-router dom components for routing and Local storage for storing data.

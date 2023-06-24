@@ -35,7 +35,7 @@ const Admin = props => {
       {registeredUserList !== null && (
         <>
           <div className="table-card">
-            <table className="joke-table">
+            <table className="travel-table">
               <th className="header-style">Name</th>
               <th className="header-style">Email-ID</th>
               <th className="header-style ">Phone-Number</th>
