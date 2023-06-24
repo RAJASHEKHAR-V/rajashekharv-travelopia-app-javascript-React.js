@@ -1,0 +1,86 @@
+.bg-container {
+  background-image: url('https://images.pexels.com/photos/2161449/pexels-photo-2161449.jpeg?cs=srgb&dl=pexels-quang-nguyen-vinh-2161449.jpg&fm=jpg');
+  min-height: 100vh;
+  background-size: cover;
+}
+
+.header-card {
+  height: 10vh;
+  background-color: #e8d8f2;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 10px 0px 10px;
+}
+
+.web-logo-card {
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+.travelopia-logo {
+  width: 150px;
+  height: 100%;
+  margin-right: 10px;
+}
+
+.traveler-quote,
+.phone-number {
+  font-family: 'Roboto';
+  color: #807d82;
+  font-weight: 500;
+  font-size: 14px;
+  margin: auto;
+}
+
+.mobile-view-phone-icon {
+  display: none;
+  width: 20px;
+  height: 20px;
+  margin: 18px;
+}
+
+.nav-card {
+  display: flex;
+  align-items: center;
+}
+
+.phone-number {
+  color: #1e1e1f;
+  margin-right: 10px;
+}
+
+.contact-us,
+.admin-button {
+  width: 120px;
+  height: 30px;
+  border: none;
+  border-radius: 8px;
+  background-color: #ed9639;
+  font-family: 'Roboto';
+  color: #ffffff;
+  font-weight: 500;
+  font-size: 14px;
+  outline: none;
+  cursor: pointer;
+}
+
+.admin-button {
+  background-color: #6b9be8;
+  margin-left: 10px;
+}
+
+@media (max-width: 767px) {
+  .traveler-quote,
+  .phone-number {
+    display: none;
+  }
+  .mobile-view-phone-icon {
+    display: flex;
+  }
+
+  .contact-us {
+    display: none;
+  }
+}

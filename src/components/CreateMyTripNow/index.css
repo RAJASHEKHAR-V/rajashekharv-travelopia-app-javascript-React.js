@@ -1,0 +1,307 @@
+.welcome-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 70vh;
+}
+
+.travel-quote {
+  font-family: 'Roboto';
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 50px;
+  align-self: flex-start;
+  text-align: center;
+}
+
+.my-trip-body {
+  display: flex;
+  align-items: center;
+}
+
+.desk-view {
+  display: flex;
+  align-items: center;
+}
+
+.select-el {
+  width: 250px;
+  padding-left: 10px;
+  height: 35px;
+  background-color: #f7f5f6;
+  border: 1px solid #bdb7ba;
+  outline: none;
+  font-family: 'Roboto';
+  color: #080707;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.book-my-trip {
+  width: 150px;
+  height: 35px;
+  background-color: #e8aa25;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  font-family: 'Roboto';
+  color: #ffffff;
+  font-weight: 500;
+  font-size: 14px;
+}
+.popup-content {
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.form-body {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  background-color: #dbd5cc;
+  opacity: 0.95;
+  border-radius: 20px;
+}
+.mobile-view {
+  display: none;
+  width: 95%;
+
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.form-card {
+  width: 100%;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  padding: 10px 0px 15px 0px;
+}
+
+.close-button {
+  width: 30px;
+  height: 30px;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  align-self: flex-end;
+  margin: 10px;
+}
+
+.close-icon {
+  width: 100%;
+  height: 100%;
+}
+
+.form-heading,
+.saved-heading {
+  font-family: 'san-serif';
+  color: #db520d;
+  font-weight: 700;
+  font-size: 25px;
+  text-align: center;
+}
+
+.saved-heading {
+  height: 50px;
+  font-size: 32px;
+  color: #048208;
+}
+
+.label-el {
+  width: 80%;
+  font-family: 'Roboto';
+  color: #262525;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.input-el,
+.planing-options {
+  width: 80%;
+  height: 30px;
+  border: 1px solid #b1b5c7;
+  background-color: #ffffff;
+  font-family: 'Roboto';
+  color: #1a1b1c;
+  font-weight: 500;
+  font-size: 14px;
+  margin-bottom: 20px;
+  padding-left: 10px;
+  outline: none;
+}
+
+.duration-card {
+  width: 80%;
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.duration-label {
+  font-family: 'Roboto';
+  color: #262525;
+  font-weight: 500;
+  font-size: 14px;
+  margin-right: 10px;
+}
+
+.days-input,
+.date-input {
+  width: 30%;
+  height: 30px;
+  border: 1px solid #b1b5c7;
+  background-color: #ffffff;
+  font-family: 'Roboto';
+  color: #1a1b1c;
+  font-weight: 500;
+  font-size: 14px;
+  margin-right: 10px;
+  padding-left: 10px;
+}
+
+.date-input {
+  margin-right: 0px;
+}
+
+.notes-card {
+  width: 80%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.note-para {
+  font-family: 'Roboto';
+  color: #f70c1c;
+  font-weight: 500;
+  font-size: 14px;
+  margin: 0px;
+}
+
+.notes-label {
+  font-family: 'Roboto';
+  color: #262525;
+  font-weight: 500;
+  font-size: 14px;
+  margin: 15px;
+}
+
+.text-input {
+  width: 80%;
+  height: 100px;
+  background-color: #ffffff;
+  margin-bottom: 10px;
+  outline: none;
+}
+
+.submit-button {
+  width: 70%;
+  height: 30px;
+  background-color: #e8360e;
+  border: none;
+  border-radius: 4px;
+  outline: none;
+  cursor: pointer;
+  font-family: 'Roboto';
+  color: #ffffff;
+  font-weight: 500;
+  font-size: 14px;
+}
+.trip-logo {
+  width: 150px;
+  height: 150px;
+  margin-bottom: 20px;
+}
+
+@media (max-width: 767px) {
+  .travel-quote {
+    font-size: 30px;
+  }
+
+  .desk-view {
+    display: none;
+  }
+
+  .book-my-trip {
+    width: 250px;
+    background-color: #e8aa25;
+  }
+  .popup-content {
+    width: 80%;
+  }
+  .form-body {
+    width: 95%;
+  }
+
+  .mobile-view {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .select-el {
+    width: 45%;
+    font-size: 12px;
+    margin-bottom: 15px;
+  }
+
+  .form-heading,
+  .saved-heading {
+    font-size: 20px;
+  }
+
+  .label-el {
+    display: none;
+  }
+
+  .input-el,
+  .planing-options {
+    width: 90%;
+    margin-bottom: 15px;
+    font-size: 12px;
+  }
+
+  .duration-card {
+    width: 90%;
+    margin-bottom: 15px;
+  }
+
+  .duration-label {
+    display: none;
+  }
+
+  .days-input,
+  .date-input {
+    width: 45%;
+    font-size: 12px;
+  }
+
+  .notes-card {
+    width: 90%;
+  }
+
+  .note-para {
+    font-size: 12px;
+  }
+
+  .notes-label {
+    font-size: 12px;
+    margin: 5px;
+  }
+
+  .text-input {
+    width: 90%;
+    height: 80px;
+  }
+
+  .submit-button {
+    font-size: 12px;
+  }
+}

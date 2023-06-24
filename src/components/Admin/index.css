@@ -1,0 +1,116 @@
+.trip-container {
+  background-color: #ffffff;
+  min-height: 100vh;
+  background-size: cover;
+  background-image: url('https://www.pixelstalk.net/wp-content/uploads/images6/Travel-Wallpaper-HD-Free-download.jpg');
+}
+
+.joke-table {
+  width: 100%;
+  background-color: #d2d6d2;
+  opacity: 0.75;
+  border-collapse: collapse;
+}
+
+.header-card {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header-style {
+  background-color: transparent;
+  padding: 8px;
+  border: 2px solid #adafc7;
+  font-family: 'Roboto';
+  color: #eb1607;
+  font-weight: 700;
+  font-size: 16px;
+  text-align: center;
+  margin-right: 10px;
+}
+
+.logout {
+  outline: none;
+  cursor: pointer;
+  font-family: 'Roboto';
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 14px;
+}
+
+.no-details-card {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.no-details-heading,
+.no-details-para {
+  font-family: 'Roboto';
+  color: #3a3ccf;
+  font-weight: 700;
+  font-size: 50px;
+}
+
+.no-details-para {
+  color: #eb1607;
+  font-size: 20px;
+}
+
+.table-card {
+  display: none;
+  width: 100%;
+}
+
+@media (max-width: 575px) {
+  .header-style {
+    font-size: 14px;
+  }
+  .category-header {
+    max-width: 60px !important;
+  }
+  .logout {
+    font-size: 12px;
+  }
+  .no-details-heading {
+    color: #0a0a0a;
+    font-size: 35px;
+  }
+  .no-details-para {
+    color: #0f0e0e;
+  }
+}
+
+.mobile-card {
+  width: 100%;
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding-top: 20px;
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+  .header-style {
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 767px) {
+  .mobile-card {
+    display: flex;
+  }
+}
+
+@media (min-width: 767px) {
+  .table-card {
+    display: flex;
+    width: 100%;
+  }
+}
