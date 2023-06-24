@@ -15,7 +15,7 @@
 
 [Travelopia Web App](https://rajatravelapp.ccbp.tech/) or https://rajatravelapp.ccbp.tech/
 
-### You can also click the below links to see the explanation videos for UI and Code.
+### You can click the below links or videos to see the explanation for UI and Code.
 
 1. https://www.loom.com/share/9de175bbccd44aa0afba98c24804be99?sid=12f93692-4360-4564-9898-54715200c285
 2. https://www.loom.com/share/e65f63e6c3c949dbac14639be991408c?sid=d1829b9a-a3eb-4535-9b8b-7a8ec18792cf
