@@ -221,7 +221,7 @@
   margin-bottom: 20px;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 1130px) {
   .travel-quote {
     font-size: 30px;
   }

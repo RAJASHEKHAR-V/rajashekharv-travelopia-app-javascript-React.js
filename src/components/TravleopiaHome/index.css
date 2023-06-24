@@ -53,7 +53,7 @@
 
 .contact-us,
 .admin-button {
-  width: 120px;
+  width: 100px;
   height: 30px;
   border: none;
   border-radius: 8px;
@@ -69,9 +69,40 @@
 .admin-button {
   background-color: #6b9be8;
   margin-left: 10px;
+  display: none;
 }
 
-@media (max-width: 767px) {
+.small-mobile {
+  display: none;
+  background-color: transparent;
+  border: none;
+}
+
+.icon {
+  height: 25px;
+  width: 25px;
+  color: #1e1e1f;
+}
+
+@media (max-width: 299px) {
+  .small-mobile {
+    display: flex;
+  }
+  .mobile-view-phone-icon {
+    display: none;
+    width: 15px;
+    height: 15px;
+    margin: 5px;
+  }
+}
+
+@media (min-width: 300px) {
+  .admin-button {
+    display: inline;
+  }
+}
+
+@media (max-width: 930px) {
   .traveler-quote,
   .phone-number {
     display: none;

@@ -49,14 +49,20 @@ const Admin = props => {
               <th className="header-style category-header">Budget</th>
               <tbody>
                 {parsedUserList.map(eachUser => (
-                  <UserItem key={eachUser.phone} userObject={eachUser} />
+                  <UserItem
+                    key={eachUser.name + eachUser.date}
+                    userObject={eachUser}
+                  />
                 ))}
               </tbody>
             </table>
           </div>
           <ul className="mobile-card">
             {parsedUserList.map(eachUser => (
-              <UserItemMobile key={eachUser.phone} userObject={eachUser} />
+              <UserItemMobile
+                key={eachUser.name + eachUser.date}
+                userObject={eachUser}
+              />
             ))}
           </ul>
           {addButton}

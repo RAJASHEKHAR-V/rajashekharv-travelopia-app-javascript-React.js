@@ -1,7 +1,9 @@
 import {useState} from 'react'
 import {BsFillTelephoneFill} from 'react-icons/bs'
+import {MdAccountBox} from 'react-icons/md'
 import {GiHamburgerMenu} from 'react-icons/gi'
 import CreateMyTripNow from '../CreateMyTripNow'
+
 import './index.css'
 
 const TravelopiaHome = props => {
@@ -77,8 +79,17 @@ const TravelopiaHome = props => {
       noOfTravelers,
       budget,
     }
-
-    storeDataInLocalStorage(updateUserDetails)
+    if (
+      destination === '' ||
+      interest === '' ||
+      noOfTravelers === '' ||
+      budget === ''
+    ) {
+      // eslint-disable-next-line no-alert
+      alert('Hello! fill the details in Starting Form then fill this form')
+    } else {
+      storeDataInLocalStorage(updateUserDetails)
+    }
   }
 
   const updateUserInfo = (key, value) => {
@@ -131,6 +142,9 @@ const TravelopiaHome = props => {
           </button>
           <button type="button" className="admin-button" onClick={onAdmin}>
             Go to Admin
+          </button>
+          <button type="button" className="small-mobile" onClick={onAdmin}>
+            <MdAccountBox className="icon" />
           </button>
         </nav>
       </div>

@@ -4,13 +4,25 @@
   align-items: flex-start;
   font-family: 'Roboto';
   color: #000000;
-  font-weight: 500;
-  font-size: 14px;
+  font-weight: 800;
+  font-size: 15px;
   background-color: #d2d6d2;
   opacity: 0.75;
   margin-left: 10px;
   margin-bottom: 10px;
-  padding: 5px;
+  padding: 15px 0px 0px 20px;
   border-radius: 10px;
-  width: 80%;
+  width: 60%;
+}
+
+@media (max-width: 576px) {
+  .user-item-mobile {
+    width: 80%;
+  }
+}
+
+@media (min-width: 767px) {
+  .user-item-mobile {
+    width: 32%;
+  }
 }

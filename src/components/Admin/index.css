@@ -63,6 +63,7 @@
 .table-card {
   display: none;
   width: 100%;
+  padding: 5px;
 }
 
 @media (max-width: 575px) {
@@ -96,7 +97,7 @@
   padding-top: 20px;
 }
 
-@media (min-width: 576px) and (max-width: 767px) {
+@media (min-width: 576px) and (max-width: 1199px) {
   .header-style {
     font-size: 15px;
   }
@@ -108,7 +109,15 @@
   }
 }
 
-@media (min-width: 767px) {
+@media (min-width: 768px) and (max-width: 1199px) {
+  .mobile-card {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+}
+
+@media (min-width: 1200px) {
   .table-card {
     display: flex;
     width: 100%;
